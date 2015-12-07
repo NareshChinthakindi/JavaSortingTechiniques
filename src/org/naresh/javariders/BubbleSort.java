@@ -28,10 +28,10 @@ public class BubbleSort {
 
 	private static int[] bubbleSort(int[] array)
 	{
-		int arrayLenghth = array.length;
+		int arrayLength = array.length;
 		int k;
 		
-		for(int i = arrayLenghth; i > 0;i--)
+		for(int i = arrayLength; i > 0;i--)
 		{
 			for(int j = 0; j < i-1;j++)
 			{
